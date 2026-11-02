@@ -1,4 +1,4 @@
-#NOTE: Bloom filter from scratch. Developed by Rudra Shah"""
+#NOTE: Bloom filter from scratch. Developed by Rudra Shah
 from __future__ import annotations
 import math
 from hashlib import blake2b

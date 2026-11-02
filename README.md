@@ -106,7 +106,7 @@ pip install -r requirements.txt
 **2. Try the demo**
 
 ```
-python demo.py
+python main.py
 ```
 
 It walks through everything: add and check, stats, save and load, union, and what happens when you overfill the filter. The last part is my favourite, at 3x capacity the false positive rate jumps from about 1% to about 46%.
@@ -160,7 +160,7 @@ Your numbers will be a bit different from mine, depends on the machine and Pytho
 
 ```
 bloomfilter/__init__.py   the filter
-demo.py                   quick demo of every feature
+main.py                   quick demo of every feature
 tests/test_bloom.py       tests
 bench/bench.py            benchmark
 bench/results.txt         my benchmark output

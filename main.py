@@ -1,4 +1,4 @@
-#NOTE: Small demo of every feature in the Bloom filter. Run: python demo.py
+#NOTE: Small demo of every feature in the Bloom filter. Run: python main.py
 import os
 import time
 from bloomfilter import BloomFilter

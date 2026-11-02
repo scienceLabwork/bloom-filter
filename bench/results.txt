@@ -1,0 +1,10 @@
+Python 3.11.13 on Darwin arm64
+Building test data...
+1,000,000 strings, ~24 chars each, 500,000 non-member probes
+
+Python set (exact): 106.6 MB
+
+Target FPR | bits/item |  k | Size MB |  vs set | Measured FPR |    adds/s | lookups/s
+--------------------------------------------------------------------------------------
+      0.01 |       9.6 |  7 |    1.20 |     89x |      0.01006 |   520,900 |   694,296
+     0.001 |      14.4 | 10 |    1.80 |     59x |      0.00103 |   384,317 |   559,757

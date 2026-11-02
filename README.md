@@ -22,7 +22,7 @@ Measured rate came almost exactly on target, which tells me the sizing math and 
 
 **NOTE:** The memory saving changes a bit by machine and Python version because the size of Python's `set` changes. I have seen 84x to 89x. The Bloom filter itself is always 1.2 MB at 1% target.
 
-Speed is around 4.8 lakh adds/sec and 6.5 lakh lookups/sec. It's pure Python so not super fast, a C or Go version would be much faster.
+Speed at 1% target is around 5.2 lakh adds/sec and 6.9 lakh lookups/sec (a bit slower at 0.1% because k is 10 instead of 7). It's pure Python so not super fast, a C or Go version would be much faster.
 
 Full output is in `bench/results.txt`.
 
